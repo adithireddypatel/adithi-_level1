@@ -24,3 +24,4 @@ y=input();
 z=sum();
 output(z):
 return 0;
+}
