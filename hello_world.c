@@ -2,8 +2,6 @@
 #include<stdio.h>
 int main()
 {
-  print("adithi reddy"):
+  printf("adithi reddy");
   return 0;
 }
-
-
