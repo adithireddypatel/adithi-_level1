@@ -16,9 +16,9 @@ int main()
   printf("Enter fraction 2: The Numerator & Denominator:");
   scanf("%d%d",&num2,&deno2);
  
- fract f1={num1 ,deno1};
- fract f2={num2,deno2};
- fract result = sum(f1,f2);
+ Fract f1={num1 ,deno1};
+ Fract f2={num2,deno2};
+ Fract result = sum(f1,f2);
  printf("Summation Result=%d/%d",result.num,result.deno);
  getch();
  return 0;
