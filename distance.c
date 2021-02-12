@@ -10,7 +10,7 @@ void distance(float x1,float y1,float x2,float y2)
 int input x()
 {
   float x;
-  print(" Enter x value:");
+  printf(" Enter x value:");
   scanf("%f",&x);
   return x;
 }
@@ -25,7 +25,7 @@ int main()
 {
   float x1,y1,x2.y2;
   x1=inputX();
-  y1=inoutY();
+  y1=inputY();
   x2=inputX();
   y2=inputY();
   distance(x1,y1,x2,y2);
